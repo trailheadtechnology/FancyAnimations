@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Application xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="FacncyAnimations.App">
+    <Application.Resources>
+        <ResourceDictionary>
+        <Color x:Key="ColorBlue">#0997d3</Color>
+        <Color x:Key="ColorLightGrey">#f3f3f3</Color>
+        <Style x:Key="NumButtonStyle" TargetType="Button">
+            <Setter Property="WidthRequest" Value="110" />
+            <Setter Property="HeightRequest" Value="80" />
+            <Setter Property="TextColor" Value="{StaticResource ColorBlue}" />
+            <Setter Property="FontAttributes" Value="Bold" />
+            <Setter Property="BackgroundColor" Value="Transparent" />
+            <Setter Property="FontSize" Value="30" />
+            <Setter Property="BorderWidth" Value="3" />
+            <Setter Property="BorderColor" Value="{StaticResource ColorLightGrey}" />
+        </Style>
+        <Style x:Key="LetterButtonStyle" TargetType="Button">
+            <Setter Property="WidthRequest" Value="60" />
+            <Setter Property="HeightRequest" Value="70" />
+            <Setter Property="TextColor" Value="{StaticResource ColorBlue}" />
+            <Setter Property="FontAttributes" Value="Bold" />
+            <Setter Property="BackgroundColor" Value="Transparent" />
+            <Setter Property="FontSize" Value="30" />
+            <Setter Property="BorderWidth" Value="3" />
+            <Setter Property="BorderColor" Value="{StaticResource ColorLightGrey}" />
+        </Style>
+       </ResourceDictionary>
+    </Application.Resources>
+</Application>

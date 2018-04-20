@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:FacncyAnimations"
+             x:Class="FacncyAnimations.MainPage">
+
+	<StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+         <Button x:Name="RedButton" Text="Shake Animation" BackgroundColor="Red" WidthRequest="150"  TextColor="Black"  Clicked="OpenShakePage" Margin="25" />
+         <Button x:Name="BlueButton" Text="Flip Animation" BackgroundColor="#0997d3" WidthRequest="150"  TextColor="Black"  Clicked="OpenRotatePage" Margin="25" />
+         <Button x:Name="GreenButton" Text="Layout Animation" BackgroundColor="Green" WidthRequest="150"  TextColor="Black"  Clicked="OpenLayoutPage" Margin="25" />
+    </StackLayout>
+
+</ContentPage>

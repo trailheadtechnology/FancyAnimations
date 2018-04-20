@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="FacncyAnimations.ShakePage">
+    <ContentPage.Content>
+        <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+         <Button x:Name="BlueButton" Text="Shake It" BackgroundColor="#00a4ef" WidthRequest="100"  TextColor="Black"  Clicked="ShakeClicked" Margin="25" />
+            <Entry x:Name="MyEntry" Placeholder="Shake me!" BackgroundColor="FloralWhite" />
+    </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
